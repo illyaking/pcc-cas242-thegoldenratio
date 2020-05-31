@@ -1,0 +1,14 @@
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0), rgba(20, 20, 20, .1)), url('img/step14.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    display: inline-block;
+    height: 500px;
+    width: 100%;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}

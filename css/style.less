@@ -1,0 +1,177 @@
+/* MOBILE STYLESHEET */
+
+@import 'palette.less';
+@import 'mixins.less';
+
+body {
+    overflow-x: hidden;
+}
+
+p,
+li {
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: @darkColor;
+    color: @lightColor;
+}
+
+nav {
+    background-color: @darkColor;
+    color: @lightColor;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+
+        a {
+            color: @color1;
+            text-decoration: none;
+            padding-right: 20px;
+
+            &:hover {
+                color: @color2;
+            }
+        }
+    }
+}
+
+.anchor {
+    display: block;
+    position: relative;
+}
+
+main {
+
+    h2 {
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-top: 2px;
+    }
+
+    .row {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .prologue {
+        background-color: @darkColor;
+        color: @lightColor;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    .white {
+        li {
+            margin-left: 30px;
+        }
+    }
+
+    .images {
+        text-align: center;
+    }
+
+    .silver {
+        background-color: @color2;
+        color: @lightColor;
+        padding: 10px;
+    }
+
+    .golden {
+        background-color: @color1;
+        padding-top: 50px;
+        padding-bottom: 150px;
+
+        ul {
+            a {
+                color: @darkColor;
+                text-decoration: none;
+                padding-left: 20px;
+
+                &:hover {
+                    color: @color2;
+                }
+            }
+        }
+    }
+
+    .golden02 {
+        background-color: @lightColor1;
+        color: @darkColor;
+        padding: 10px;
+    }
+
+    .golden03 {
+        background-color: @lightColor2;
+        color: @darkColor;
+        padding: 10px;
+    }
+}
+
+footer {
+    background-color: @darkColor;
+    color: @lightColor;
+    padding-bottom: 20px;
+
+    h2 {
+        color: @color1;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        color: @color1;
+        text-decoration: none;
+
+        &:hover {
+            color: @color2;
+        }
+    }
+
+    .copyright {
+        font-size: 1em;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .row {
+        padding-bottom: 30px;
+    }
+
+    .social {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            font-size: 6em;
+
+            a {
+                color: @color1;
+                text-decoration: none;
+
+                &:hover {
+                    color: @color2;
+                }
+            }
+        }
+
+    }
+}
